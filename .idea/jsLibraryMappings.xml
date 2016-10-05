@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/node-backend" libraries="{task-management/node-backend/node_modules}" />
+    <file url="file://$PROJECT_DIR$/reactjs-frontend" libraries="{task-management/reactjs-frontend/node_modules}" />
+    <includedPredefinedLibrary name="ECMAScript 6" />
+  </component>
+</project>
