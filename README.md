@@ -4,4 +4,4 @@ a task as done or set a repeated task...
 
 * Architecture
 
-![Task Management Architecture](https://scontent-hkg3-1.xx.fbcdn.net/t31.0-8/14589719_1151405148239105_7468081892243610887_o.jpg)
+![Task Management Architecture](https://raw.githubusercontent.com/khuongdv/task-management/master/documents/architecture.PNG)
