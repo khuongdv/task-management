@@ -42,6 +42,6 @@ You can see the architecture as below:
         * Create new tasks
         * Tasks have tags to group them into groups
 3. Android app
-     * All task as specified in ReactJS app
+     * All features as specified in ReactJS app
      * Integrate with Firebase to get notifications
      * Save token to RealmIO
