@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('*', function (req, res, next) {
     var authorization = req.header("Authorization");
-    if (authorization && validAuthorizationInfo(authorization)) {
+    if (req.originalUrl === "/login"|| (authorization && validAuthorizationInfo(authorization))) {
         next();
     } else {
         res.status(401);

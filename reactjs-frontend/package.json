@@ -1,47 +1,18 @@
 {
   "name": "reactjs-frontend",
-  "version": "1.0.0",
-  "description": "The React Way - Getting Started",
-  "main": "src/server/index.js",
-  "scripts": {
-    "test": "jest",
-    "start": "node src/server/index.js",
-    "postinstall": "webpack --config config/webpack.js",
-    "webpack": "webpack --config config/webpack.js",
-    "webpack-watch": "webpack --config config/webpack.js --watch --colors"
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.6.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/RisingStack/react-way-getting-started.git"
-  },
-  "author": "RisingStack, Peter Marton",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RisingStack/react-way-getting-started/issues"
-  },
-  "homepage": "https://github.com/RisingStack/react-way-getting-started",
   "dependencies": {
-    "debug": "^2.2.0",
-    "express": "^4.14.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
-  "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-cli": "^6.16.0",
-    "babel-core": "^6.17.0",
-    "babel-loader": "^6.2.5",
-    "jest-cli": "^16.0.1",
-    "webpack": "^1.13.2"
-  },
-  "jest": {
-    "scriptPreprocessor": "./tools/preprocessor.js",
-    "unmockedModulePathPatterns": [
-      "react"
-    ],
-    "testPathDirs": [
-      "./src/app",
-      "./src/client"
-    ]
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }

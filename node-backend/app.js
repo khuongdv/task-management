@@ -5,11 +5,13 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+// List filter
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var sched = require('./routes/scheduledtasks');
 var tasks = require('./routes/tasks');
 var filter = require('./routes/filter');
+var login = require('./routes/login');
 var app = express();
 
 // uncomment after placing your favicon in /public
@@ -24,6 +26,7 @@ app.use('/', routes);
 app.use('/users', users);
 app.use('/scheduled', sched);
 app.use('/tasks', tasks);
+app.use('/login', login);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
