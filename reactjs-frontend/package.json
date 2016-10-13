@@ -1,18 +1,43 @@
 {
-  "name": "reactjs-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "react-scripts": "0.6.1"
-  },
-  "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2"
-  },
+  "name": "my-react-starter",
+  "version": "1.0.0",
+  "description": "My React Starting Kit",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "webpack-dev-server --config webpack/webpack.config.js --content-base bundle/",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashi-dh/my-react-starter.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "DongDo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashi-dh/my-react-starter/issues"
+  },
+  "homepage": "https://github.com/akashi-dh/my-react-starter#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-jest": "^15.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.25.0",
+    "html-webpack-plugin": "^2.22.0",
+    "jest": "^15.1.1",
+    "jest-css-modules": "^1.0.2",
+    "node-sass": "^3.9.3",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-test-renderer": "^15.3.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1",
+    "webpack-merge": "^0.14.1"
   }
 }

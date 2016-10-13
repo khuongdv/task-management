@@ -1,0 +1,7 @@
+exports[`test helloworld 1`] = `
+<a
+  className="hello-world"
+  href="hello.com">
+  Hello, world
+</a>
+`;

@@ -1,9 +1,11 @@
+import FrontPage from 'views/FrontPage';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+require('stylesheets/base.scss');
+
+/**
+ * App entry point
+ */
+
+ReactDOM.render(<FrontPage />, document.getElementById('browser_mount'));
